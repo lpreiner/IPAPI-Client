@@ -28,6 +28,7 @@
 		<RepositoryUrl>https://github.com/lpreiner/IPAPI-Client</RepositoryUrl>
 		<description>Simple client for ip-api.com with support for both free and pro endpoints</description>
 		<PackageProjectUrl>https://github.com/lpreiner/IPAPI-Client</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 
 </Project>
