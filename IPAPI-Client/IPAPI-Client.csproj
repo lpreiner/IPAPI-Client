@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<RootNamespace>IPAPIClient</RootNamespace>
+		<DisableImplicitNamespaceImports>true</DisableImplicitNamespaceImports>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<PlatformTarget>AnyCPU</PlatformTarget>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<PlatformTarget>AnyCPU</PlatformTarget>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Text.Json" Version="5.0.2" />
+	</ItemGroup>
+
+	<!-- Package Details -->
+	<PropertyGroup>
+		<PackageId>IP-API</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Luke Preiner</Authors>
+		<title>IP-API</title>
+		<RepositoryUrl>https://github.com/lpreiner/IPAPI-Client</RepositoryUrl>
+		<description>Simple client for ip-api.com with support for both free and pro endpoints</description>
+		<PackageProjectUrl>https://github.com/lpreiner/IPAPI-Client</PackageProjectUrl>
+	</PropertyGroup>
+
+</Project>
